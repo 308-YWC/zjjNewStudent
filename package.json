@@ -1,0 +1,19 @@
+{
+  "name": "zjjhyxy-freshman-guide",
+  "version": "1.0.0",
+  "description": "张家界航空工业职业技术学院新生指南网站",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && node index.js"
+  },
+  "keywords": ["vue3", "nodejs", "freshman-guide", "college"],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
