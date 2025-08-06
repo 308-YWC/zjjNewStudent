@@ -10,7 +10,12 @@
     "build": "cd client && npm run build",
     "start": "cd server && node index.js"
   },
-  "keywords": ["vue3", "nodejs", "freshman-guide", "college"],
+  "keywords": [
+    "vue3",
+    "nodejs",
+    "freshman-guide",
+    "college"
+  ],
   "author": "Developer",
   "license": "MIT",
   "devDependencies": {
